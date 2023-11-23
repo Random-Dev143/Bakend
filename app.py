@@ -7,7 +7,7 @@ import json  # Importa el módulo json
 app = Flask(__name__)
 CORS(app)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://Randomdev90:R$T$g4t4@Randomdev90.mysql.pythonanywhere-services.com/Randomdev90$Registros'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:Promo!$#2013.@localhost/registros'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 ma = Marshmallow(app)
