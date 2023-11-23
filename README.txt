@@ -1,0 +1,1 @@
+Phyton 3.11 - Flask, Flask-sqlalchemy, Flask-marshmallow, marshmallow-sqlalchemy, pymysql flask-cors.S
